@@ -6,6 +6,7 @@ import { optionsFirst, optionsSecond } from 'data';
 import Select from 'react-select';
 import clipboard from 'assets/images/clipboard.svg';
 import classnames from 'classnames';
+import ReactGA from 'react-ga';
 
 class App extends Component {
   constructor(props) {
@@ -23,6 +24,16 @@ class App extends Component {
       copied: false
     };
   }
+
+  initReactGA = () => {
+    ReactGA.initialize('UA-134750291-3');
+    ReactGA.pageview('homepage');
+  };
+
+  componentDidMount(){
+    this.initReactGA();
+  }
+
 
   handleToggle = (evt) => {
     const { id } = evt.target;
