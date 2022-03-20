@@ -3,7 +3,7 @@
      style="float: left; margin-right: 10px;" />
 
 
-##Table of Contents
+## Table of Contents
 
 [Intro](https://github.com/geekanant/linuxexplorer/blob/master/README.md#intro)
 
