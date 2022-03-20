@@ -73,12 +73,12 @@ export const secondaryOptions = {
     {
       value: 'new-file',
       label: 'a new file',
-      nb: 'touch <filename>'
+      usage: 'touch <filename>'
     },
     {
       value: 'new-folder',
       label: 'a new folder',
-      nb: 'mkdir <foldername>'
+      usage: 'mkdir <foldername>'
     }
   ],
 
